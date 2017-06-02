@@ -1,0 +1,138 @@
+"*":
+  "atom-beautify":
+    csv:
+      beautify_on_save: true
+    general:
+      _analyticsUserId: "49d77eae-2469-4594-83ce-9da813691b07"
+    handlebars:
+      beautify_on_save: true
+      indent_inner_html: true
+    html:
+      beautify_on_save: true
+    js:
+      eval_code: true
+      indent_with_tabs: true
+      jslint_happy: true
+      unescape_strings: true
+    json:
+      beautify_on_save: true
+    php:
+      cs_fixer_path: "/usr/local/bin/php-cs-fixer"
+  "atom-ternjs":
+    useSnippets: true
+    useSnippetsAndFunction: true
+  core:
+    disabledPackages: [
+      "xkcd-comics"
+      "linter-jshint"
+      "node-debugger"
+      "git-time-machine"
+      "activate-power-mode"
+      "wrap-guide"
+      "wrap-guide"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "git-control"
+    ]
+    projectHome: "/Volumes/Cloud/G Suite Drive/RAMP/development"
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "atom-monokai"
+    ]
+    titleBar: "custom"
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "Consolas"
+    lineHeight: 2
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+  "ember-tabs":
+    overrideUsePods: true
+  "exception-reporting":
+    userId: "22e620e3-3d24-2684-b58a-c7e46de9271c"
+  "git-control":
+    noFastForward: true
+  "github-notifications":
+    notificationAuthToken: "994e583969f2583a719b6af219c7603ae25b24f8"
+  linter: {}
+  "linter-ui-default": {}
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "one-dark-ui":
+    tabSizing: "Minimum"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#222222"
+        blue: "#ae81ff"
+        cyan: "#65d9ef"
+        green: "#a6e22e"
+        magenta: "#f92a72"
+        red: "#f92a72"
+        white: "#cfcfc2"
+        yellow: "#fd9720"
+      zBright:
+        brightBlack: "#75715e"
+        brightBlue: "#ae81ff"
+        brightCyan: "#65d9ef"
+        brightGreen: "#a6e22e"
+        brightMagenta: "#f92a72"
+        brightRed: "#f92a72"
+        brightWhite: "#cfcfc2"
+        brightYellow: "#e6db74"
+    iconColors:
+      blue: "#ae81ff"
+      cyan: "#65d9ef"
+      green: "#a6e22e"
+      magenta: "#f92a72"
+      orange: "#ff9300"
+      yellow: "#e6db74"
+    style: {}
+    toggles: {}
+  "terminal-plus":
+    core:
+      mapTerminalsTo: "Folder"
+    toggles:
+      autoClose: true
+  "todo-show":
+    sortAscending: false
+    sortBy: "Type"
+  "tree-view":
+    hideIgnoredNames: true
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
+".extended.js.source":
+  editor:
+    preferredLineLength: 150
+  "multi-wrap-guide":
+    columns: [
+      150
+    ]
+".html.knockout.text":
+  editor:
+    preferredLineLength: 160
+  "multi-wrap-guide":
+    columns: [
+      160
+    ]

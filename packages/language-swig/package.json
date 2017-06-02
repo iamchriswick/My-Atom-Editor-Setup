@@ -1,0 +1,34 @@
+{
+  "name": "language-swig",
+  "version": "0.1.4",
+  "description": "This is a package for the swig which is a simple, powerful, and extendable JavaScript Template Engine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saki007ster/language-swig.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# language-swig package\n\nThis is a package for the swig which is a simple, powerful, and extendable  Node.js and Browser-based JavaScript Template Engine.\n\n## Features of swig\n- Available for node.js and major web browsers!\n- Uses similar methodologies as Django, Jinja2, and Twig template engines.\n- Express compatible.\n- Object-Oriented template inheritance.\n- Apply filters and transformations to output in your templates.\n- Automatically escapes all output for safe HTML rendering.\n- Lots of iteration and conditionals supported.\n- Robust without the bloat.\n- Extendable and customizable.\n- Great code coverage.\n\n## Language Definition\n\nSwig assumes it is a subset of the HTML language definition. All HTML-based commands and preferences are extended via the Swig bundle.\n\nThis bundle adds support for tag-folding, Swig comments, and smart typing pairs.\n\n## Tags\n\nAll tags support tab-completion\n\n>\n> block⇥\n> \n> {% block ${1:blockname} %}\n>     $0\n> {% endblock %}\n\n## License\n\nCopyright (c) 2014 Saket Kumar\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/saki007ster/language-swig/issues"
+  },
+  "homepage": "https://github.com/saki007ster/language-swig#readme",
+  "_id": "language-swig@0.1.4",
+  "_shasum": "ec66fd4c079cfa4ac0059e6c4a6ea689ab4c8413",
+  "_resolved": "file:../d-116517-12149-v607g8/package.tgz",
+  "_from": "../d-116517-12149-v607g8/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+        "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-117210-89872-vetyk1"
+    ]
+  ],
+  "_from": "../d-117210-89872-m78su1/package.tgz",
+  "_id": "KeyCount@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/KeyCount",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+    "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117210-89872-m78su1/package.tgz",
+  "_shasum": "c588fe1bc5716b5e9ebc82036df0b2dce4aee49d",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117210-89872-m78su1/package.tgz",
+  "_where": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-117210-89872-vetyk1",
+  "activationCommands": {
+    "atom-workspace": "keycount:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/soapskyway/keycount/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  },
+  "description": "Counts key strokes and displays them in a panel",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/soapskyway/keycount#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/keycount",
+  "name": "KeyCount",
+  "optionalDependencies": {},
+  "readme": "# Key count package\n\nSimple tool to count the number of key strokes using Atom.\n\nIt is per window.\n\n![Example](https://raw.githubusercontent.com/soapskyway/keycount/master/AtomEditor.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soapskyway/keycount.git"
+  },
+  "version": "0.2.0"
+}

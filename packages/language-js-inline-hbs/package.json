@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+        "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-11704-15590-1polr7w"
+    ]
+  ],
+  "_from": "../d-11704-15590-1t6wirg/package.tgz",
+  "_id": "language-js-inline-hbs@0.8.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-js-inline-hbs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+    "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11704-15590-1t6wirg/package.tgz",
+  "_shasum": "e96420e81a40a2257901352067d683de229ec4ca",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11704-15590-1t6wirg/package.tgz",
+  "_where": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-11704-15590-1polr7w",
+  "bugs": {
+    "url": "https://github.com/jasonmit/atom-language-js-inline-hbs/issues"
+  },
+  "dependencies": {},
+  "description": "JavaScript + inline hbs support in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/jasonmit/atom-language-js-inline-hbs#readme",
+  "license": "MIT",
+  "name": "language-js-inline-hbs",
+  "optionalDependencies": {},
+  "readme": "# JavaScript + inline hbs support in Atom\n\nAtom Language support for inline hbs within javascript files\n\n![Screenshot](https://i.imgur.com/cgtmfeF.png)\n\n## Installation\n\n* `apm install language-js-inline-hbs`\n* `apm install language-ember-htmlbars`\n* Open `.js` file and make sure the document type is `JavaScript inline hbs`\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmit/atom-language-js-inline-hbs.git"
+  },
+  "version": "0.8.0"
+}

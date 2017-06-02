@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+        "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-11709-51809-kzwe7r"
+    ]
+  ],
+  "_from": "../d-11709-51809-fsndtc/package.tgz",
+  "_id": "language-knockout@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-knockout",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+    "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11709-51809-fsndtc/package.tgz",
+  "_shasum": "d1373f6276c195b876240dae9cc27c9a4d091170",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11709-51809-fsndtc/package.tgz",
+  "_where": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-11709-51809-kzwe7r",
+  "author": {
+    "name": "Bryan Morris",
+    "url": "https://github.com/internalfx"
+  },
+  "bugs": {
+    "url": "https://github.com/internalfx/language-knockout/issues"
+  },
+  "dependencies": {},
+  "description": "Grammar support for Knockout templates",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/internalfx/language-knockout#readme",
+  "keywords": [
+    "language",
+    "knockout"
+  ],
+  "license": "ISC",
+  "name": "language-knockout",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# language-knockout package\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/internalfx/language-knockout.git"
+  },
+  "version": "0.2.0"
+}

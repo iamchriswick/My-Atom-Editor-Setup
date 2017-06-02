@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+        "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-11711-45387-1279a7a"
+    ]
+  ],
+  "_from": "../d-11711-45387-t9jngh/package.tgz",
+  "_id": "github-notifications@0.1.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/github-notifications",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+    "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11711-45387-t9jngh/package.tgz",
+  "_shasum": "fff9be0647771221229db9a479fc38eddb01b3f2",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-11711-45387-t9jngh/package.tgz",
+  "_where": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-11711-45387-1279a7a",
+  "bugs": {
+    "url": "https://github.com/zephraph/atom-github-notifications/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "event-kit": "^1.2.0",
+    "lodash": "^3.10.1",
+    "request": "^2.60.0"
+  },
+  "description": "An Atom package to notify you when you have awaiting github notifications",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/zephraph/atom-github-notifications#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/github-notifications",
+  "name": "github-notifications",
+  "optionalDependencies": {},
+  "readme": "# Github Notifications for Atom\n\nThis package allows you to see your if you have any awaiting GitHub notifications on atom's status bar.\n\n### Installation\n\nInstall from the settings view in atom or by apm via\n\n```\napm install github-notifications\n```\n\n### Usage\n\n1. Create a new [personal access token](https://github.com/settings/tokens/new) with _only_ notifications access.\n2. Copy the token into the package's settings\n3. Enjoy the notifications\n\n**Warning: There is no way to secure your github token from other packages. Make absolutely sure you _only_ configure your personal token to allow notifications access.**\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zephraph/atom-github-notifications.git"
+  },
+  "version": "0.1.2"
+}

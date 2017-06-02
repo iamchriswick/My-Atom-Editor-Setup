@@ -1,0 +1,49 @@
+'.source.js':
+    '$self = $this':
+      'prefix': '$s=t'
+      'body': 'var $self = $(this);'
+    'callback':
+      'prefix': 'cb',
+      'body': '(\'$1:{args}\') => { \n \'$2:{args}\' \n}'
+    'self = this':
+      'prefix': 's=t',
+      'body': 'var self = this;'
+    'Ember':
+      'prefix': 'em'
+      'body': 'Ember'
+    'Ember Object Extend':
+      'prefix': 'eoe'
+      'body':'Ember.Object.extend({\n});'
+    'This Set':
+      'prefix': 'ts',
+      'body': 'this.set(\'${1:prop}\')'
+    'this controller':
+      'prefix': 'tc'
+      'body': 'this.controller'
+    'this create Record':
+      'prefix': 'tcr',
+      'body': 'this.store.createRecord(\'${1:name}\'{${2:}});'
+    'DS Attr':
+      'prefix': 'dsa'
+      'body': 'DS.attr(\'${1:type}\')${2:}'
+    'this store find all':
+      'prefix': 'sfa'
+      'body': 'this.store.findAll(\'${1:model}\', ${2:property})${3:}'
+    'This store find record':
+      'prefix': 'sfr',
+      'body': 'this.store.findRecord(\'${1:model}\', ${2:property})${3:}'
+    'Computed Property':
+      'prefix': 'cmp',
+      'body': 'Ember.computed(\'${1:prop1}\', \'${2:prop2}\', function() {\nreturn \'${3:stuff}\' \n})'
+    'Promise Then':
+      'prefix': 'thn',
+      'body': '.then(function(\'${1:val}\') { \n})\n \'${2:.catch}\''
+    'Inject Service':
+      'prefix': 'service',
+      'body': 'Ember.inject.service(\'${service}\')'
+    'Ember Observer':
+      'prefix': 'eom',
+      'body': 'Ember.observer(\'${1:prop1}\', function() {\nreturn \'${2:observe}\' \n})'
+    'Ember Run Once':
+      'prefix': 'ero',
+      'body': 'Ember.run.once(this, \'${1:FunctionName}\');'

@@ -1,0 +1,84 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.ember-cli-helper {
+    .panel-divider {
+        order: 1;
+        display: inherit;
+        flex: 0 0 auto;
+        position: absolute;
+        height: 8px;
+        margin-top: -4px;
+        z-index: 3;
+        -webkit-user-select: none;
+        cursor: ns-resize;
+        width: 100%;
+    }
+
+    .btn-toolbar {
+        order: 2;
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 4px 2px;
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .btn {
+            top: 0;
+            height: auto;
+            line-height: normal;
+            padding: 4px;
+            margin: 0 5px;
+        }
+    }
+
+    .panel-body {
+        display: -webkit-flex;
+        flex-direction: column;
+        align-content: flex-end;
+        position: relative;
+        width: 100%;
+        height: 294px;
+        max-height: 350px;
+        overflow: scroll;
+        outline: none;
+        background-color: #1c1c1c;
+        // color: #f8f8f0;
+        font-family: Consolas;
+        font-size: 13px;
+        transition: height 0.25s linear;
+    }
+
+    .btn:focus {
+        outline: 0;
+    }
+    // Styles for the buttons that are floated to the right
+    .btn-right {
+        float: right;
+
+        &.inline-block-tight {
+            margin-left: @component-icon-padding;
+        }
+    }
+    // Add to the btn-sm class
+    .btn-sm {
+        margin-top: @component-icon-padding;
+        margin-bottom: @component-icon-padding;
+
+        &:first-child {
+            margin-left: @component-icon-padding;
+        }
+    }
+}
+.ember-cli-btn-group:extend(.btn-group){
+    width: 100%;
+}

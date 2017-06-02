@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+        "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-117031-94818-1dzuhj7"
+    ]
+  ],
+  "_from": "../d-117031-94818-1arosym/package.tgz",
+  "_id": "git-commit@1.5.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/git-commit",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+    "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117031-94818-1arosym/package.tgz",
+  "_shasum": "e275544432e89c12ab63cedd7ee8321d0e5d6b9a",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-94818-1arosym/package.tgz",
+  "_where": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-117031-94818-1dzuhj7",
+  "bugs": {
+    "url": "https://github.com/alanzanattadev/atom-git-commit/issues"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "node-ssh": "^2.0.7",
+    "radium": "^0.16.6",
+    "react-for-atom": "^15.0.2-0"
+  },
+  "description": "Package to make git commit from Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/alanzanattadev/atom-git-commit#readme",
+  "keywords": [
+    "git",
+    "commit",
+    "add"
+  ],
+  "license": "MIT",
+  "main": "./lib/git-commit",
+  "name": "git-commit",
+  "optionalDependencies": {},
+  "package-dependencies": {
+    "tool-bar": "^0.2.0"
+  },
+  "readme": "# git-commit package\n\nSelect the files to add and commit directly from Atom.\n\n![A screenshot of your package](https://github.com/alanzanattadev/atom-git-commit/blob/master/git-commit-screenshot.png?raw=true)\n\n# Integrated Features:\n  - Select directory and files to stage with beautiful and practical UI\n  - Commit staged files\n  - Current buffer file repository selection for fast multi projects management\n\n# Integrated with Nuclide\n\nWorking on a remote project with Nuclide ? Commands will work th same way by\ntaking your current remote configuration and executing commands over ssh. Everything\nworks seamlessly !\n\n![Nuclide icon](http://nuclide.io/static/logo.png)\n\n# Integrated with tool-bar\n\nButtons for tool-bar package are added for a better IDE experience.\n\n![A screenshot of your package](https://github.com/alanzanattadev/atom-git-commit/blob/master/tool-bar-screenshot.png?raw=true)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanzanattadev/atom-git-commit.git"
+  },
+  "version": "1.5.3"
+}

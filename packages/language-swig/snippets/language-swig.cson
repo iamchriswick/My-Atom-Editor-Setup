@@ -1,0 +1,19 @@
+'.source.swig':
+  '%feature':
+    'prefix': 'feat'
+    'body': '%feature("${1:name}") $2; '
+  '%ignore':
+    'prefix': 'ign'
+    'body': '%ignore $1;'
+  '%include':
+    'prefix': 'inc'
+    'body': '%include "$1"'
+  '%module':
+    'prefix': 'mod'
+    'body': '%module${1:($2)} "${3:name}"'
+  '%rename':
+    'prefix': 're'
+    'body': '%rename(${1:new_name}) ${2:old_name};'
+  '%template':
+    'prefix': 'temp'
+    'body': '%template(${1:name}) ${2:type};'

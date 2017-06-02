@@ -1,0 +1,6 @@
+{
+  "features": {
+    "foo-bar": null,
+    "baz": true
+  }
+}

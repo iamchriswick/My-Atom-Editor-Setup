@@ -1,0 +1,116 @@
+'scopeName': 'text.html.knockout'
+'fileTypes': [
+  'ko'
+  'html'
+]
+'name': 'HTML (Knockout)'
+'patterns': [
+  {
+    'begin': '<!--\\s*(ko)\\s*([a-zA-Z]+):'
+    'beginCaptures': {
+      '1':
+        'name': 'keyword.control'
+      '2':
+        'name': 'keyword.control'
+    }
+    'end': '-->'
+    'endCaptures': {}
+    'name': 'meta.tag.ko-virtual'
+    'patterns': [
+      {
+        'include': 'source.js'
+      }
+    ]
+  }
+  {
+    'begin': '<!--\\s*(/ko)\\b'
+    'beginCaptures':
+      '1':
+        'name': 'keyword.control'
+    'end': '\\s*-->'
+    'endCaptures':
+      '1':
+        'name': ''
+    'name': ''
+    'patterns': []
+  }
+  {
+    'begin': '(</?)([a-zA-Z0-9:-]+)'
+    'beginCaptures':
+      '1':
+        'name': 'punctuation.definition.tag.begin.html'
+      '2':
+        'name': 'entity.name.tag.other.html'
+    'end': '(>)'
+    'endCaptures':
+      '1':
+        'name': 'punctuation.definition.tag.end.html'
+    'name': 'meta.tag.other.html'
+    'patterns': [
+      {
+        'include': '#tag-ko-attribute'
+      }
+      {
+        'include': 'text.html.basic#tag-stuff'
+      }
+    ]
+  }
+  {
+    'include': 'text.html.basic'
+  }
+]
+'repository': {
+  'tag-ko-attribute': {
+    'begin': '\\b(data-bind|params)\\b\\s*(=)'
+    'captures':
+      '1':
+        'name': 'keyword.other.ko-attribute.html'
+      '2':
+        'name': 'punctuation.separator.key-value.html'
+    'end': '(?<=\'|")|(?=\\s|>)'
+    'name': 'meta.attribute-with-value.ko-attribute.html'
+    'patterns': [
+      {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.html'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.html'
+        'name': 'string.quoted.double.html'
+        'patterns': [
+          {
+            'include': '#embedded-code'
+          }
+          {
+            'include': '#entities'
+          }
+        ]
+      }
+      {
+        'begin': '\''
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.html'
+        'end': '\''
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.html'
+        'name': 'string.quoted.single.html'
+        'patterns': [
+          {
+            'include': '#embedded-code'
+          }
+          {
+            'include': '#entities'
+          }
+        ]
+      }
+      {
+        'include': '#unquoted-attribute'
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+        "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-117031-20539-elexqo"
+    ]
+  ],
+  "_from": "../d-117031-20539-monn9q/package.tgz",
+  "_id": "atom-ember-author-kit@0.8.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-ember-author-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+    "spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117031-20539-monn9q/package.tgz",
+  "_shasum": "cc998d1ca4205a11b74bf977eb7bd048fc29dfba",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/d-117031-20539-monn9q/package.tgz",
+  "_where": "/private/var/folders/6b/pjqt41891w15rbk2krv9pmj00000gn/T/apm-install-dir-117031-20539-elexqo",
+  "bugs": {
+    "url": "https://github.com/donaldwasserman/atom-ember-author-kit/issues"
+  },
+  "dependencies": {},
+  "description": "Ember author tool kit for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/donaldwasserman/atom-ember-author-kit#readme",
+  "keywords": [
+    "ember",
+    "ember handlebars",
+    "HTMLBars"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "atom-ember-author-kit",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  },
+  "readme": "#Ember Authoring Tools for CLI Projects\n\nThis package adds Ember-specific HTMLBars functionality for the Atom text editor, including:\n\n- HTMLBars syntax highlights (Improvements based on https://atom.io/packages/language-ember-htmlbars)\n- HTMLBars Ember 2.0 default helpers\n- Autocomplete generated from `components` and `helpers` folders\n- Misc Ember-flavored javascript snippets\n\n###Snippet Guide\n\n####HMTLBars\n\n**See `snippets/language-ember-htmlbars.cson` for full syntax details**\n\n| Prefix | Description          |\n| ------------- | ----------- |\n| if      | `{{#if}}...{{/if}}`|\n| ife     | `{{#if}}...{{else}}..{/if}` |\n| unless     | `{{#unless}}..{{/unless}}` |\n| ema     | `{{action}}` |\n| ifl | `{{if .. ...}}` |\n| elsif | `{{else if .. ...}}` |\n| lt  | `{{#link-to...}}` |\n| each | `{{#each model as |param |}}` |\n| input | `{{input type='vals'}}` |\n| textarea | `{{textarea....}}` |\n| em get | `{{get model...prop}}` |\n| each-in | {{#each in model as param ....}} |\n\n\n###Other Projects\n\nOther Ember + Atom projects:\n\n- [Ember Tabs](https://atom.io/packages/ember-tabs)\n- [Ember CLI Helper](https://atom.io/packages/ember-cli-helper)\n- [Ember ES6 Snipetts](https://atom.io/packages/ember-snippets)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldwasserman/atom-ember-author-kit.git"
+  },
+  "version": "0.8.3"
+}

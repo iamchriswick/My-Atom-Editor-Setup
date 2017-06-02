@@ -1,0 +1,45 @@
+{
+  ".source.handlebars": {
+    "note": "Glimmer rules for using package as .hbs highlighter and .js inline template highlighter",
+    "note:increaseIndent": "hbs` for template start",
+    "note:decreaseIndent": "` for end of template",
+    "NOTEdecreaseIndentPattern": "^\\s*(</(?!html)[-_\\.A-Za-z0-9]+\\b[^>]*>|-->|<\\?(php)?\\s+(else(if)?|end(if|for(each)?|while))|\\})",
+    "editor": {
+      "commentStart": "{{!-- ",
+      "commentEnd": " --}}",
+      "increaseIndentPattern": "{{#([-_.A-Za-z0-9/]+)[^}]*(?!.*{{/\\1)|<(?!(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\\b|[^>]*/>)([-_\\.A-Za-z0-9]+)(?=\\s|>)\\b[^>]*>(?!.*</\\2>)|hbs`",
+      "decreaseIndentPattern": "^\\s*({{\/[-\\w/]*}}|</[-_\\.A-Za-z0-9]+\\b[^>]*>|`)"
+    },
+    "Begin notes on indent patterns" : "--------------------------------------",
+    "NOTE": "Use end of line $ or self reference (?!.*</\\1>) to prevent an indent match",
+    "NOTE": "Decrease patterns begin with ^\\s* to prevent incorrect decrease matches",
+    "increaseIndentPatternNotes": [
+      {
+        "pattern": "{{#([-_.A-Za-z0-9/]+)[^}]*(?!.*{{/\\1)",
+        "note": "Matches opening of any glimmer block components without closing block"
+      },
+      {
+        "pattern": "<(?!(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\\b|[^>]*/>)([-_\\.A-Za-z0-9]+)(?=\\s|>)\\b[^>]*>(?!.*</\\2>)",
+        "note": "HTML tag matching pattern pulled from language-html"
+      },
+      {
+        "pattern": "hbs`",
+        "note": "Matches opening of any inline glimmer template declaration"
+      }
+    ],
+    "decreaseIndentPatternNotes": [
+      {
+        "pattern": "{{\/[-\\w/]*}}",
+        "note": "Matches closing of any glimmer block component"
+      },
+      {
+        "pattern": "</[-_\\.A-Za-z0-9]+\\b[^>]*>",
+        "note": "HTML tag matching pattern pulled from language-html"
+      },
+      {
+        "pattern": "`",
+        "note": "Matches closing of any inline glimmer template declaration"
+      }
+    ]
+  }
+}
